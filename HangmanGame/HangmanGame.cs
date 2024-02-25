@@ -27,7 +27,7 @@ namespace HangmanGame
                 return new string(chars);
             }
         }
-
+         
         public HangmanGame(int allowedMisses = 6)
         {
             if(allowedMisses < 5 | allowedMisses > 8)
@@ -36,7 +36,7 @@ namespace HangmanGame
             }
             this.allowedMisses = allowedMisses;
         }
-
+         
         public string GenerateWord()
         {
 
